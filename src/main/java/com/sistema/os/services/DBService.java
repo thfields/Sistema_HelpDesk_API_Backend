@@ -28,8 +28,8 @@ public class DBService {
 
 	public void instaciaDB() {
 
-		Tecnico t1 = new Tecnico(null, "Thiago Campos", "804.474.190-99", "(11) 91111-1111");
-		Cliente c1 = new Cliente(null, "Betina Campos", "215.295.400-97", "(22) 92222-2222");
+		Tecnico t1 = new Tecnico(null, "Tecnico Exemple", "804.474.190-99", "(11) 91111-1111");
+		Cliente c1 = new Cliente(null, "Cliente Exemple", "215.295.400-97", "(22) 92222-2222");
 
 		OS os1 = new OS(null, Prioridade.ALTA, "Teste create OS", Status.ANDAMENTO, t1, c1);
 
